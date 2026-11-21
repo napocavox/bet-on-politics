@@ -28,5 +28,30 @@ Aplicație în care utilizatorii pariază pe evenimente politice (alegeri, moți
 - Risc reputațional / politic: acuzații de influențare a alegerilor.
 - Volum sezonier (vârfuri doar în ani electorali).
 
+## Decizii (2026-11-21)
+1. **Model:** piață între utilizatori, cu monedă internă. Premiile vin de la sponsori; la egalitate între câștigători se face tombolă.
+2. **Obiect:** nu rezultatul alegerilor, ci **promisiunile electorale** și **termenele proiectelor publice anunțate**.
+3. **Scop declarat:** un indicator al (ne)încrederii în administrația publică.
+
+## Analiză a deciziilor
+
+### Monedă internă + sponsori + tombolă
+- Un joc de noroc presupune trei lucruri: miză, hazard și premiu. Dacă moneda e **gratuită, nu se poate cumpăra și nu se poate preschimba în bani**, miza dispare. Probabil ieșim astfel din regimul de licență ONJN. *[inferență — de confirmat juridic]*
+- Tombola reintroduce hazardul. Concursurile promoționale cu premii au regim propriu: regulament public, eventual autorizare, impozit pe premii. *[detaliile neverificate]*
+- **Conturi multiple:** cu monedă gratuită și premii reale, oamenii vor crea conturi în plus ca să aibă mai multe șanse. E nevoie de verificarea identității (telefon sau ID) chiar fără bani reali.
+- **Sponsorii:** de ce ar plăti o firmă ca să fie asociată cu ideea că „primăria X nu-și ține promisiunile"? Sponsorii plauzibili sunt ONG-urile de bună guvernare, presa și fundațiile, nu brandurile comerciale. Sponsorii politici trebuie excluși (conflict de interese).
+- Piețele cu bani fictivi pot prezice bine: există studii care le găsesc comparabile cu cele pe bani reali. *[cunoscut, dar pe sport, nu pe politică locală]*
+
+### Promisiuni și proiecte în loc de alegeri
+- **Rezolvare:** promisiunile sunt de obicei vagi („vom moderniza..."). Fiecare piață are nevoie de un criteriu verificabil, de o sursă oficială pentru verificare și de o dată-limită.
+- **Proiecte fără termen cunoscut:** o piață are nevoie de un termen. Soluția e o scară de întrebări: „Va fi recepționat X până la 2027-06? până la 2027-12? până la 2028-12?". Din prețuri rezultă o distribuție a datei probabile de finalizare.
+- **Indicator cu adevărat nou:** decalajul dintre termenul oficial anunțat și termenul pe care îl estimează piața („decalajul de credibilitate").
+- **Există deja ceva asemănător:** urmăritoare de promisiuni precum Factual.ro sau PolitiFact. *[cred că da]* Ce aducem nou e prognoza cu termen, nu evaluarea făcută după.
+
+### „Măsură a încrederii populației" — corecție
+- Prețul măsoară **probabilitatea estimată de îndeplinire**, nu încrederea. Cineva bine informat și cineva cinic pot da aceeași probabilitate din motive diferite.
+- Participanții se aleg singuri, deci nu sunt reprezentativi pentru populație. Prețul e stabilit de cei mai activi utilizatori.
+- Formulare corectă: **estimarea colectivă a credibilității angajamentelor publice**. Pentru „încrederea populației" e nevoie de sondaj, eventual comparat cu piața.
+
 ## Următorul pas propus
 Verificare juridică (ONJN + un avocat pe gambling) **înainte** de orice prototip.
