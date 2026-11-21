@@ -108,5 +108,36 @@ Aplicație în care utilizatorii pariază pe evenimente politice (alegeri, moți
 ### Recomandare
 Structura de date cu SIRUTA încă de la început, dar lansarea cu un singur oraș (Cluj). Extinderea se face doar după ce s-au validat participarea și regulile de stabilire a rezultatului.
 
+## Decizii (runda 3)
+- **Lansare doar în Cluj**; extinderea se decide ulterior.
+- **Editori: jurnaliști locali**, care aduc proiectele și stadiile de execuție.
+
+## Analiză (runda 3)
+
+### Reorganizarea administrativă
+- Dacă UAT-urile se comasează, codurile SIRUTA se schimbă, dar proiectele rămân. În structura de date, proiectul se leagă de **locația lui (coordonate)** și de **UAT-ul de la data anunțului**, cu istoric al schimbărilor. Nu se leagă doar de codul UAT curent.
+- Reforma însăși poate fi un subiect de predicție: „Va fi adoptată legea reorganizării până la data X?"
+
+### Jurnaliștii ca editori — avantaje
+- Cunosc proiectele, au surse și urmăresc stadiile de execuție.
+- **Aduc public:** rezolvă parțial problema lansării fără utilizatori.
+- Formulările de tipul „am spus încă din anul... că..." sunt exact predicțiile pe care platforma le poate **înregistra cu dată, înainte de rezultat**, și apoi **verifica**.
+
+### Funcționalitate rezultată: istoricul de acuratețe
+- Fiecare jurnalist (și primăria) are un istoric verificabil al predicțiilor: **jurnaliști vs. mulțime vs. termene oficiale**.
+- Motivație pentru jurnaliști: o dovadă publică a credibilității lor.
+- Predicțiile istorice („am spus în 2019") se acceptă **doar cu link la articolul datat**, marcate separat de cele făcute pe platformă.
+
+### Jurnaliștii ca editori — riscuri
+- **Selecție:** un editor poate alege proiectele care îi confirmă teza (ex.: doar cele întârziate).
+- **Conflict de interese:** cine a afirmat public că proiectul va întârzia are interes în cum se stabilește rezultatul.
+- **Interese locale:** unele publicații locale au contracte de publicitate cu primăriile sau afinități politice *[fenomen cunoscut în general, nu verificat pentru Cluj]*.
+
+### Reguli propuse
+1. **Criteriul de rezultat se fixează la crearea proiectului** și nu se mai modifică.
+2. **Rezultatul îl confirmă un al doilea editor**, pe baza unui document (recepție, SEAP), nu editorul care a propus proiectul.
+3. Editorul unui proiect **poate face predicții**, dar acestea apar separat, ca predicții de expert, și nu intră la premii.
+4. Editorii își declară public afilierea (publicația, eventualele contracte cu administrația).
+
 ## Următorul pas propus
 Verificare juridică (ONJN + un avocat pe gambling) **înainte** de orice prototip.
