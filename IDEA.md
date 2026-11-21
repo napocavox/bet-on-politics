@@ -53,5 +53,39 @@ Aplicație în care utilizatorii pariază pe evenimente politice (alegeri, moți
 - Participanții se aleg singuri, deci nu sunt reprezentativi pentru populație. Prețul e stabilit de cei mai activi utilizatori.
 - Formulare corectă: **estimarea colectivă a credibilității angajamentelor publice**. Pentru „încrederea populației" e nevoie de sondaj, eventual comparat cu piața.
 
+## Decizii (runda 2)
+- Venit din **reclame** (model de aplicație clasică), pe lângă sponsori.
+- Un participant poate intra în **oricâte** predicții.
+- Sursa evenimentelor: **anunțurile primăriilor** (ex.: metroul din Cluj).
+- Mecanism: **un participant = o predicție per proiect** = data exactă (zi, lună, an) a dării în folosință.
+
+## Analiză (runda 2)
+
+### Nu mai e o piață, e un concurs de estimări
+- Nu există prețuri și nici schimburi între participanți, deci „piața între pariori" nu mai există. Moneda internă **devine inutilă**.
+- E mai simplu și mai curat: rezultatul e **distribuția estimărilor** („înțelepciunea mulțimii"). Indicatorul principal: **mediana estimărilor minus data oficială** = decalajul de credibilitate.
+- Ca să funcționeze înțelepciunea mulțimii, estimările trebuie să fie independente. **Distribuția celorlalți se afișează doar după ce trimiți estimarea**, altfel participanții se iau unii după alții.
+
+### Regula de câștig
+- Șansa de a nimeri ziua exactă e foarte mică, deci regula trebuie să fie **„câștigă cel mai apropiat"** (eroare absolută în zile). La egalitate, tombolă.
+- **Avantajul celor care intră târziu:** cine estimează cu o lună înainte de inaugurare știe mult mai mult. Variante:
+  (a) estimările se închid la o dată fixă;
+  (b) runde anuale, cu clasament separat pe fiecare rundă;
+  (c) scor ajustat după cât de devreme ai estimat.
+  Recomandare: **(b)**, care oferă și o serie de timp a credibilității.
+- **„Dat în folosință"** trebuie definit dinainte: recepția lucrărilor? prima cursă cu pasageri? Iar dacă proiectul se deschide pe etape, se face câte o predicție pe etapă.
+
+### Orizontul lung
+- Proiecte ca metroul se termină peste ani. Premiul s-ar acorda abia atunci, iar participanții și sponsorii se pierd pe drum.
+- Soluție: **etape intermediare scurte** (contract semnat, autorizație emisă, start forare, stație X finalizată). Asta ține utilizatorii activi și dă rezultate rapid.
+
+### Sursa datelor
+- Anunțul primăriei e chiar afirmația care se testează. Sursa care confirmă rezultatul trebuie să fie **independentă** (presă, documente de recepție, SEAP), nu doar primăria.
+- Preluarea automată din comunicate e fragilă. La început, o listă selectată manual (10–20 de proiecte) e mai realistă.
+
+### Reclame
+- Venitul din reclame depinde de numărul de utilizatori. La câteva mii de utilizatori activi pe lună, un public de nișă local aduce cel mult zeci sau sute de euro pe lună. *[speculație de ordin de mărime, CPM pentru România neverificat]*
+- Se poate porni așa, dar reclamele nu vor acoperi premiile. Premiile rămân sarcina sponsorilor.
+
 ## Următorul pas propus
 Verificare juridică (ONJN + un avocat pe gambling) **înainte** de orice prototip.
