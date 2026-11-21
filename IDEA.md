@@ -87,5 +87,26 @@ Aplicație în care utilizatorii pariază pe evenimente politice (alegeri, moți
 - Venitul din reclame depinde de numărul de utilizatori. La câteva mii de utilizatori activi pe lună, un public de nișă local aduce cel mult zeci sau sute de euro pe lună. *[speculație de ordin de mărime, CPM pentru România neverificat]*
 - Se poate porni așa, dar reclamele nu vor acoperi premiile. Premiile rămân sarcina sponsorilor.
 
+## Extindere: orașe și comune
+
+### Ce se poate extinde ușor și ce nu
+- **Ușor:** structura datelor. Fiecare proiect se leagă de o unitate administrativ-teritorială (UAT) prin **codul SIRUTA** (nomenclatorul oficial al localităților). Costă puțin să fie făcut așa de la început.
+- **Greu:** alegerea proiectelor și verificarea rezultatelor. Munca crește proporțional cu numărul de proiecte. România are ~3.000+ UAT-uri, cele mai multe comune *[ordin de mărime cunoscut, cifra exactă neverificată]*. Multe comune publică foarte puțin online.
+
+### Problema numărului mic de participanți
+- Într-o comună, un proiect poate avea 3–10 estimări. Mediana a 3 oameni nu înseamnă nimic, iar câțiva oameni ai primarului (sau ai opoziției) pot deturna rezultatul.
+- Soluții:
+  - **prag minim** de participanți (ex.: N ≥ 30) înainte de a publica indicatorul;
+  - **agregare** pe județ sau pe tip de proiect (ex.: „drumurile comunale din județul X: întârziere estimată +Y%");
+  - **normalizare:** indicatorul se exprimă ca raport între durata estimată de public și durata anunțată, ca să poată fi comparate proiecte de mărimi diferite.
+
+### Surse de date care se pot extinde
+- **SEAP / e-licitatie:** contracte cu termene de execuție, pentru toate UAT-urile.
+- **PNRR și fonduri UE:** proiecte cu termene oficiale publice. Termenul-limită PNRR a fost august 2026, deci există deja date pe care se poate testa metoda. *[stadiul și disponibilitatea datelor neverificate]*
+- **Proiecte propuse de utilizatori:** pot acoperi comunele, dar au nevoie de moderare și de un link la documentul oficial.
+
+### Recomandare
+Structura de date cu SIRUTA încă de la început, dar lansarea cu un singur oraș (Cluj). Extinderea se face doar după ce s-au validat participarea și regulile de stabilire a rezultatului.
+
 ## Următorul pas propus
 Verificare juridică (ONJN + un avocat pe gambling) **înainte** de orice prototip.
